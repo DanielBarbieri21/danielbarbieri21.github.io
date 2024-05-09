@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
       Garçom
       Shayka Comida Árabe, Juiz de Fora (janeiro 2001 — janeiro 2003) -
       • Atendimento ao cliente e atividades de manutenção.`;
-    const courses = `Cobol e Linguagem para Sistemas Financeiros – Estácio de Sá (2007).
+    const courses = `Cobol e Linguagem C para Sistemas Financeiros – Estácio de Sá (2007).
       Java - Fundação Bradesco (novembro 2022 — dezembro 2022).
       C# Avançado - Fundação Bradesco (outubro 2022 — novembro 2022).
       Python Avançado - Fundação Bradesco (novembro 2022 — dezembro 2022).
