@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const skillsData = [
       "Python",
       "Java",
-      "Excel Avançado",
+      "Cobol Básico",
       "Power BI",
       "Linux",
       "Visual Studio",
