@@ -26,8 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     Data Science - Senai/SC (julho 2023 — agosto 2023).
     Fundamentos de AWS Cloud, Escola da Nuvem — 2023 (andamento).
     Curso de Programação (Algoritmos, Lógica, HTML, CSS, JS, PHP, Banco de Dados, API, Frameworks e AWS Cloud Certificação, Proz Educação — agosto 2023 - janeiro 2024.`;
-  const languages = `Inglês intermediário para leitura e compreensão — (Cultura Inglesa — 1998 -2001).
-    Espanhol intermediário para leitura e compreensão — (Ensino Médio 1997 -1999).`;
+  const languages = `Inglês intermediário para leitura e compreensão — (Cultura Inglesa — 1998 -2001).\nEspanhol intermediário para leitura e compreensão — (Ensino Médio 1997 -1999).`;
   const hobbies = `Jogar xadrez • Assistir séries • Academia • Estudar • Caminhar • Correr`;
 
  
@@ -35,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("name").textContent = name;
   document.getElementById("objective").textContent = objective;
   document.getElementById("courses").textContent = courses;
-  document.getElementById("languages").textContent = languages;
+  document.getElementById("languages").innerHTML = languages.replace(/\n/g, "<br>");
   document.getElementById("hobbies").textContent = hobbies;
 
  
