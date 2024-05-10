@@ -16,16 +16,16 @@ document.addEventListener("DOMContentLoaded", function() {
     Garçom
     Shayka Comida Árabe, Juiz de Fora (janeiro 2001 — janeiro 2003) -
     • Atendimento ao cliente e atividades de manutenção.`;
-  const courses = `Cobol e Linguagem C para Sistemas Financeiros – Estácio de Sá (2007).
-    Java - Fundação Bradesco (novembro 2022 — dezembro 2022).
-    C# Avançado - Fundação Bradesco (outubro 2022 — novembro 2022).
-    Python Avançado - Fundação Bradesco (novembro 2022 — dezembro 2022).
-    Introdução a Redes - Fundação Bradesco (janeiro 2023 — fevereiro 2023).
-    Banco de Dados, ADA Tech — (fevereiro 2023).
-    Computação em Nuvem - Senai/SC (julho 2023 —agosto 2023).
-    Data Science - Senai/SC (julho 2023 — agosto 2023).
-    Fundamentos de AWS Cloud, Escola da Nuvem — 2023 (andamento).
-    Curso de Programação (Algoritmos, Lógica, HTML, CSS, JS, PHP, Banco de Dados, API, Frameworks e AWS Cloud Certificação, Proz Educação — agosto 2023 - janeiro 2024.`;
+  const courses = `• <strong>Cobol e Linguagem C para Sistemas Financeiros</strong> – Estácio de Sá (2007).
+    • <strong>Java</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).
+    • <strong>C# Avançado</strong> - Fundação Bradesco (outubro 2022 — novembro 2022).
+    • <strong>Python Avançado</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).
+    • <strong>Introdução a Redes</strong> - Fundação Bradesco (janeiro 2023 — fevereiro 2023).
+    • <strong>Banco de Dados</strong>, ADA Tech — (fevereiro 2023).
+    • <strong>Computação em Nuvem</strong> - Senai/SC (julho 2023 —agosto 2023).
+    • <strong>Data Science</strong> - Senai/SC (julho 2023 — agosto 2023).
+    • <strong>Fundamentos de AWS Cloud</strong>, Escola da Nuvem — 2023 (andamento).
+    • <strong>Curso de Programação</strong> (Algoritmos, Lógica, HTML, CSS, JS, PHP, Banco de Dados, API, Frameworks e AWS Cloud Certificação, Proz Educação — agosto 2023 - janeiro 2024.`;
   const languages = `Inglês intermediário para leitura e compreensão — (Cultura Inglesa — 1998 -2001).\nEspanhol intermediário para leitura e compreensão — (Ensino Médio 1997 -1999).`;
   const hobbies = `Jogar xadrez • Assistir séries • Academia • Estudar • Caminhar • Correr`;
 
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("profile-picture").src = profilePicture;
   document.getElementById("name").textContent = name;
   document.getElementById("objective").textContent = objective;
-  document.getElementById("courses").textContent = courses;
+  document.getElementById("courses").innerHTML = courses;
   document.getElementById("languages").innerHTML = languages.replace(/\n/g, "<br>");
   document.getElementById("hobbies").textContent = hobbies;
 
