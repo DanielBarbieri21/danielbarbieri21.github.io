@@ -27,18 +27,23 @@
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body * {
     font-family: 'Inter', sans-serif;
-    color: var(--text-color)
+    color: var(--text-color);
+    box-sizing: border-box;
 }
 
 #container {
     width: 100%;
     max-width: 588px;
-    margin:56px auto 8px;
+    margin: 56px auto 8px;
     padding: 0 24px;
+    overflow: hidden;
 }
 
 /* Profile */
@@ -49,7 +54,6 @@ body * {
 
 #profile img {
     width: 112px;
-  
 }
 
 #profile {
@@ -57,11 +61,11 @@ body * {
     line-height: 24px;
     margin-top: 8px;
 }
+
 /* Switch */
 #switch {
     position: relative;
     width: 64px;
-
     margin: 4px auto;
 }
 
@@ -70,20 +74,17 @@ body * {
     height: 32px;
     background: white var(--switch-bg-url) no-repeat center;
     border-radius: 50%;
-    
     position: absolute;
     top: 50%;
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
-
     animation: slide-back 0.2s;
 }
 
-.light #switch button{
+.light #switch button {
    animation: slide-in 0.2s forwards;
 }
-
 
 #switch button:hover {
     outline: 8px solid var(--highlight-color);
@@ -100,50 +101,41 @@ body * {
     border-radius: 9999px;
 }
 
-
 ul {
     list-style: none;
-
     display: flex;
     flex-direction: column;
     gap: 16px;
-
     padding: 24px 0;
+    margin: 0;
 }
 
 ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     padding: 16px 24px;
-
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
-
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-
     text-decoration: none;
     font-weight: 500;
-
     transition: background 0.2s;
 }
-/* pseudo-selector */
+
 ul li a:hover {
     background: var(--surface-color-hover);
-    border: 1.5px solid var(--text-color)
+    border: 1.5px solid var(--text-color);
 }
 
 #social-links {
     display: flex;
     justify-content: center;
-  
-
     padding: 24px 0;
-
     font-size: 24px;
+    margin: 0;
 }
 
 #social-links a {
@@ -151,22 +143,20 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
     padding: 16px;
-
     transition: background 0.2s;
     border-radius: 50%;
 }
 
-#social-links a:hover{
-    background:var(--highlight-color);
-    
+#social-links a:hover {
+    background: var(--highlight-color);
 }
 
 footer {
     padding: 24px;
     text-align: center;
 }
-/* Usando Media queries */
 
+/* Usando Media queries */
 @media (min-width: 780px) {
     :root {
         --bg-url: url(./assets/bg-desktop.jpg);
@@ -177,23 +167,20 @@ footer {
     }
 }
 
-
-
 @keyframes slide-in {
     from {
-      left: 0;
+        left: 0;
     }
     to {
-      left: 50%;
+        left: 50%;
     }
 }
 
 @keyframes slide-back {
     from {
         left: 50%;
-      }
-      to {
+    }
+    to {
         left: 0;
-      }
+    }
 }
-
