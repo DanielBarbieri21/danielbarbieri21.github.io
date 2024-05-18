@@ -2,22 +2,27 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  
 }
 
 .container {
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.coluna-esquerda,
+.coluna-direita {
+  width: 100%;
 }
 
 .coluna-esquerda {
-  width: 20%;
   background-color: #afd6b8ea;
   padding: 20px;
-  flex-grow: 2; 
+  margin-bottom: 20px;
 }
 
 .coluna-direita {
-  width: 80%;
   background-color: #fff;
   padding: 20px;
 }
@@ -27,7 +32,7 @@ body {
   height: 150px;
   border-radius: 50%;
   background-color: #ccc;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   text-align: center;
   line-height: 150px;
   font-size: 24px;
@@ -45,7 +50,7 @@ body {
 }
 
 .coluna-direita h1 {
-  font-size: 32px;
+  font-size: 24px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -57,51 +62,43 @@ body {
 .redes-sociais a {
   color: #007bff;
   text-decoration: none;
-  margin-right: 10px;
-}
-
-.redes-sociais .telefone {
-  color: #333;
-}
-
-.coluna-direita h2 {
-  font-size: 24px;
+  display: block;
   margin-bottom: 10px;
-}
-.foto-perfil img {
-  width: 150px; 
-  height: 150px; 
-  border-radius: 50%; 
-  object-fit: cover; 
-}
-.redes-sociais a {
-display: block; 
-margin-bottom: 20px; 
-text-decoration: none; 
-}
-
-.redes-sociais a[href*="linkedin"] {
-color: #007bff; 
-}
-
-.redes-sociais a[href*="github"] {
-color: #28a745; 
-}
-
-.redes-sociais a[href^="mailto"] {
-color: #dc3545; 
 }
 
 .redes-sociais .contato {
-display: block; 
-margin-top: 20px; 
-color: #000; 
-font-weight: bold; 
-}
-.coluna-direita h1 {
-margin-bottom: 10px; 
+  display: block;
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
 }
 
 .coluna-direita p {
-margin-bottom: 40px; 
+  margin-bottom: 20px;
+}
+
+.foto-perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (min-width: 780px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .coluna-esquerda {
+    width: 20%;
+    margin-bottom: 0;
+  }
+
+  .coluna-direita {
+    width: 80%;
+  }
+
+  .coluna-direita h1 {
+    font-size: 32px;
+  }
 }
