@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
    
   const profilePicture = "./assets/foto perfil.jpg";
   const name = "Adailton Daniel Oliveira Barbieri";
-  const objective = `Formado em Administração com (ênfase em Sistemas de Informação) pela Estácio de Sá e em Ciências Econômicas pelo Instituto Vianna Junior (FGV), atualmente curso o 4º período de Engenharia de Software e o 1º Período de Análise e Desenvolvimento de Sistemas. Estou cursando o 1º semestre de pós-graduação em Big Data e Ciência Analítica, e tenho interesse em trabalhar também desenvolvendo software. Estou passando por uma transição de carreira, na qual busco conhecer e aprender a implementar estratégias de migração de aplicações para a nuvem, visando à redução de custos e ao aumento de desempenho. Para isso, almejo uma oportunidade para atuar na área de TI, com foco em Cloud. Tenho experiência em análise de Redes (Modelo OSI, TCP/IP, DNS, etc.) e Desenvolvimento Web. Possuo habilidades em Microsoft Office e Power BI, além de profunda resiliência, garra, boa liderança, ótima comunicação, trabalho em equipe, pensamento analítico e criativo. Também tenho experiência em metodologia ágil e processo Scrum.`;
+  const objective = `Formado em Administração com (ênfase em Sistemas de Informação) pela Estácio de Sá e em Ciências Econômicas pelo Instituto Vianna Junior (FGV), atualmente curso o 4º período de Engenharia de Software, 2º Período de Análise e Desenvolvimento de Sistemas e 2º Período Big Data e Ciência Analítica.Estou cursando o 2º semestre de pós-graduação em Big Data e IA, e tenho interesse em trabalhar também desenvolvendo software. Estou passando por uma transição de carreira, na qual busco conhecer e aprender a implementar estratégias de migração de aplicações para a nuvem, visando à redução de custos e ao aumento de desempenho. Para isso, almejo uma oportunidade para atuar na área de TI, com foco em Cloud e Inteligência Artificial . Tenho experiência em análise de Redes (Modelo OSI, TCP/IP, DNS, etc.) e Desenvolvimento Web. Possuo habilidades em Microsoft Office e Power BI, além de profunda resiliência,habilidades em solucionar problemas e encontrar soluções, muita garra, boa liderança, ótima comunicação, trabalho em equipe, pensamento analítico e criativo. Também tenho experiência em metodologia ágil e processo Scrum.`;
   const experience = `Gerente Vendas e Gerente TI
     Rolaveda Rolamentos, Juiz de Fora (setembro 2009 - Presente) -
     • Vendas, suporte ao cliente e treinamento de pessoal no ramo de autopeças, com conhecimento em mecânica de automóveis.
@@ -16,18 +16,24 @@ document.addEventListener("DOMContentLoaded", function() {
     Garçom
     Shayka Comida Árabe, Juiz de Fora (janeiro 2001 — janeiro 2003) -
     • Atendimento ao cliente e atividades de manutenção.`;
-  const courses = `• <strong>Cobol e Linguagem C para Sistemas Financeiros</strong> – Estácio de Sá (2007).
-    • <strong>Java</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).
-    • <strong>C# Avançado</strong> - Fundação Bradesco (outubro 2022 — novembro 2022).
-    • <strong>Python Avançado</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).
-    • <strong>Introdução a Redes</strong> - Fundação Bradesco (janeiro 2023 — fevereiro 2023).
-    • <strong>Banco de Dados</strong>, ADA Tech — (fevereiro 2023).
-    • <strong>Computação em Nuvem</strong> - Senai/SC (julho 2023 —agosto 2023).
-    • <strong>Data Science</strong> - Senai/SC (julho 2023 — agosto 2023).
-    • <strong>Fundamentos de AWS Cloud</strong>, Escola da Nuvem — 2023 (andamento).
-    • <strong>Curso de Programação</strong> (Algoritmos, Lógica, HTML, CSS, JS, PHP, Banco de Dados, API, Frameworks e AWS Cloud Certificação, Proz Educação — agosto 2023 - janeiro 2024.`;
-  const languages = `Inglês intermediário para leitura e compreensão — (Cultura Inglesa — 1998 -2001).\nEspanhol intermediário para leitura e compreensão — (Ensino Médio 1997 -1999).`;
-  const hobbies = `Jogar xadrez • Assistir séries • Academia • Estudar • Caminhar • Correr`;
+    const courses = `
+    <p>• <strong>Cobol e Linguagem C para Sistemas Financeiros</strong> – Estácio de Sá (2007).</p>
+    <p>• <strong>Java</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).</p>
+    <p>• <strong>Linux</strong> - Udemy (novembro 2023 — dezembro 2023).</p>
+    <p>• <strong>IA - Inteligência Artificial </strong> - Mastertech - IBM (Março 2024 — Julho 2024).</p>
+    <p>• <strong>Oracle Cloud</strong> - Oracle University (Janeiro 2024 — Julho 2024).</p>
+    <p>• <strong>Oracle OCI Generative </strong> - Oracle University (Março 2024 — Julho 2024).</p>
+    <p>• <strong>C# Avançado</strong> - Fundação Bradesco (outubro 2022 — novembro 2022).</p>
+    <p>• <strong>Python Avançado</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).</p>
+    <p>• <strong>Introdução a Redes</strong> - Fundação Bradesco (janeiro 2023 — fevereiro 2023).</p>
+    <p>• <strong>Banco de Dados</strong>, ADA Tech — (fevereiro 2023).</p>
+    <p>• <strong>Computação em Nuvem</strong> - Senai/SC (julho 2023 —agosto 2023).</p>
+    <p>• <strong>Data Science</strong> - Senai/SC (julho 2023 — agosto 2023).</p>
+    <p>• <strong>Fundamentos de AWS Cloud</strong>, Escola da Nuvem — 2023 - 2024.</p>
+    <p>• <strong>Curso de Programação</strong> (Algoritmos, Lógica, HTML, CSS, JS, PHP, Banco de Dados, API, Frameworks e AWS Cloud Certificação, Proz Educação — agosto 2023 - janeiro 2024.</p>
+  `;  
+  const languages = `Inglês intermediário para leitura e compreensão — (Cultura Inglesa — 1998 -2001 - Curso Yes - 2024).\nEspanhol intermediário para leitura e compreensão — (Ensino Médio 1997 -1999).`;
+  const hobbies = `Jogar xadrez • Assistir séries • Academia • Estudar • Fazer longas caminhadas com meu Cachorro (Iron) • Correr`;
 
  
   document.getElementById("profile-picture").src = profilePicture;
@@ -42,6 +48,11 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       degree: "Analise e Desenvolvimento de Sistemas",
       institution: "Faculdade Anhanguera Unopar, Juiz de Fora",
+      period: "Fevereiro 2024 — Junho 2026"
+    },
+    {
+      degree: "Big Data e Ciência Analítica",
+      institution: "Faculdade Anhembi Morumbi, Juiz de Fora",
       period: "Fevereiro 2024 — Junho 2026"
     },
     {
@@ -82,6 +93,9 @@ document.addEventListener("DOMContentLoaded", function() {
     "Linux",
     "Visual Studio",
     "AWS Cloud",
+    "Oracle Cloud",
+    "Oracle OCI Generetive",
+    "IBM Cloud",
     "Git",
     "Github",
     "C",
@@ -97,7 +111,10 @@ document.addEventListener("DOMContentLoaded", function() {
     "Eclipse",
     "Metodologia Ágil",
     "Scrum",
-    "MongoDB"
+    "MongoDB",
+    "Bootstrap",
+    "Typescript",
+    "React"
   ];
 
   const skillsSection = document.getElementById("skills");
