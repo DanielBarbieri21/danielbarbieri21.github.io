@@ -2,7 +2,13 @@ document.addEventListener("DOMContentLoaded", function() {
    
   const profilePicture = "./assets/foto perfil.jpg";
   const name = "Adailton Daniel Oliveira Barbieri";
-  const objective = `Formado em Administração com (ênfase em Sistemas de Informação) pela Estácio de Sá e em Ciências Econômicas pelo Instituto Vianna Junior (FGV), atualmente curso o 4º período de Engenharia de Software, 2º Período de Análise e Desenvolvimento de Sistemas e 2º Período Big Data e Ciência Analítica.Estou cursando o 2º semestre de pós-graduação em Big Data e IA, e tenho interesse em trabalhar também desenvolvendo software. Estou passando por uma transição de carreira, na qual busco conhecer e aprender a implementar estratégias de migração de aplicações para a nuvem, visando à redução de custos e ao aumento de desempenho. Para isso, almejo uma oportunidade para atuar na área de TI, com foco em Cloud e Inteligência Artificial . Tenho experiência em análise de Redes (Modelo OSI, TCP/IP, DNS, etc.) e Desenvolvimento Web. Possuo habilidades em Microsoft Office e Power BI, além de profunda resiliência,habilidades em solucionar problemas e encontrar soluções, muita garra, boa liderança, ótima comunicação, trabalho em equipe, pensamento analítico e criativo. Também tenho experiência em metodologia ágil e processo Scrum.`;
+  const objective = `
+Sou formado em Administração com ênfase em Sistemas de Informação pela Estácio de Sá e em Ciências Econômicas pelo Instituto Vianna Junior (FGV). Atualmente, estou cursando o 4º período de Engenharia de Software, o 2º período de Análise e Desenvolvimento de Sistemas e o 2º período de Big Data e Ciência Analítica. Além disso, estou no 2º semestre da pós-graduação em Big Data e IA.
+
+Estou em transição de carreira e busco oportunidades na área de TI, com foco em Cloud e Inteligência Artificial. Tenho interesse particular em desenvolver software e implementar estratégias de migração de aplicações para a nuvem, visando à redução de custos e ao aumento de desempenho.
+
+Possuo experiência em análise de Redes (Modelo OSI, TCP/IP, DNS, etc.) e Desenvolvimento Web. Minhas habilidades incluem Microsoft Office e Power BI, além de resiliência, resolução de problemas, liderança, comunicação, trabalho em equipe e pensamento analítico e criativo. Tenho também experiência em metodologias ágeis e no processo Scrum.`;
+  
   const experience = `Gerente Vendas e Gerente TI
     Rolaveda Rolamentos, Juiz de Fora (setembro 2009 - Presente) -
     • Vendas, suporte ao cliente e treinamento de pessoal no ramo de autopeças, com conhecimento em mecânica de automóveis.
@@ -30,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <p>• <strong>Computação em Nuvem</strong> - Senai/SC (julho 2023 —agosto 2023).</p>
     <p>• <strong>Data Science</strong> - Senai/SC (julho 2023 — agosto 2023).</p>
     <p>• <strong>Fundamentos de AWS Cloud</strong>, Escola da Nuvem — 2023 - 2024.</p>
+    <p>• <strong>Aplicativos mobile multiplataforma</strong>, Cosmos-Unopar — Março 2024 (em andamento).</p>
     <p>• <strong>Curso de Programação</strong> (Algoritmos, Lógica, HTML, CSS, JS, PHP, Banco de Dados, API, Frameworks e AWS Cloud Certificação, Proz Educação — agosto 2023 - janeiro 2024.</p>
   `;  
   const languages = `Inglês intermediário para leitura e compreensão — (Cultura Inglesa — 1998 -2001 - Curso Yes - 2024).\nEspanhol intermediário para leitura e compreensão — (Ensino Médio 1997 -1999).`;
