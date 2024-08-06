@@ -11,23 +11,23 @@ body {
   padding: 20px;
 }
 
-.coluna-esquerda,
-.coluna-direita {
+.left-column,
+.right-column {
   width: 100%;
 }
 
-.coluna-esquerda {
+.left-column {
   background-color: #afd6b8ea;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.coluna-direita {
+.right-column {
   background-color: #fff;
   padding: 20px;
 }
 
-.foto-perfil {
+.profile-photo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -39,45 +39,45 @@ body {
   color: #fff;
 }
 
-.secao {
+.section {
   margin-bottom: 20px;
 }
 
-.secao h2 {
+.section h2 {
   color: #fff;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-.coluna-direita h1 {
+.right-column h1 {
   font-size: 24px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-.redes-sociais {
+.social-media {
   margin-bottom: 20px;
 }
 
-.redes-sociais a {
+.social-media a {
   color: #007bff;
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
 }
 
-.redes-sociais .contato {
+.social-media .contact {
   display: block;
   margin-top: 10px;
   color: #000;
   font-weight: bold;
 }
 
-.coluna-direita p {
+.right-column p {
   margin-bottom: 20px;
 }
 
-.foto-perfil img {
+.profile-photo img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -89,16 +89,16 @@ body {
     flex-direction: row;
   }
 
-  .coluna-esquerda {
+  .left-column {
     width: 20%;
     margin-bottom: 0;
   }
 
-  .coluna-direita {
+  .right-column {
     width: 80%;
   }
 
-  .coluna-direita h1 {
+  .right-column h1 {
     font-size: 32px;
   }
 }
