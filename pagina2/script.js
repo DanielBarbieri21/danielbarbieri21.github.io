@@ -121,7 +121,10 @@ Possuo experiência em análise de Redes (Modelo OSI, TCP/IP, DNS, etc.) e Desen
     "MongoDB",
     "Bootstrap",
     "Typescript",
-    "React"
+    "React",
+    "Flutter",
+    "Xamarin (.NET)",
+    "Springboot"
   ];
 
   const skillsSection = document.getElementById("skills");
