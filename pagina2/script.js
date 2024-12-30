@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const profilePicture = "./assets/foto perfil.jpg";
   const name = "Adailton Daniel Oliveira Barbieri";
   const objective = `
-Sou formado em Administração com ênfase em Sistemas de Informação pela Estácio de Sá e em Ciências Econômicas pelo Instituto Vianna Junior (FGV). Atualmente, estou cursando o 4º período de Engenharia de Software, o 2º período de Análise e Desenvolvimento de Sistemas e o 2º período de Big Data e Ciência Analítica. Além disso, estou no 2º semestre da pós-graduação em Big Data e IA.
+Sou formado em Administração com ênfase em Sistemas de Informação pela Estácio de Sá e em Ciências Econômicas pelo Instituto Vianna Junior (FGV). Atualmente, estou cursando o 5º período de Engenharia de Software, o 3º período de Análise e Desenvolvimento de Sistemas e o 3º período de Big Data e Ciência Analítica. Além disso, estou no 3º semestre da pós-graduação em Big Data e IA.
 
 Estou em transição de carreira e busco oportunidades na área de TI, com foco em Cloud e Inteligência Artificial. Tenho interesse particular em desenvolver software e implementar estratégias de migração de aplicações para a nuvem, visando à redução de custos e ao aumento de desempenho.
 
@@ -23,6 +23,7 @@ Possuo experiência em análise de Redes (Modelo OSI, TCP/IP, DNS, etc.) e Desen
     Shayka Comida Árabe, Juiz de Fora (janeiro 2001 — janeiro 2003) -
     • Atendimento ao cliente e atividades de manutenção.`;
     const courses = `
+    <p>• <strong>AWS Cloud Pratitioner</strong> – AWS (2024).</p>
     <p>• <strong>Cobol e Linguagem C para Sistemas Financeiros</strong> – Estácio de Sá (2007).</p>
     <p>• <strong>Java</strong> - Fundação Bradesco (novembro 2022 — dezembro 2022).</p>
     <p>• <strong>Linux</strong> - Udemy (novembro 2023 — dezembro 2023).</p>
