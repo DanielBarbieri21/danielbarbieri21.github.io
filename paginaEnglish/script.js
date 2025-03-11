@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const profilePicture = "./assets/foto perfil.jpg";
   const name = "Adailton Daniel Oliveira Barbieri";
   const objective = `
-  I have a degree in Business Administration with an emphasis on Information Systems from Estácio de Sá and in Economics from Instituto Vianna Junior (FGV). Currently, I am in the 4th semester of Software Engineering, the 2nd semester of Systems Analysis and Development, and the 2nd semester of Big Data and Analytical Science. Additionally, I am in the 2nd semester of my postgraduate studies in Big Data and AI.
+  I have a degree in Business Administration with an emphasis on Information Systems from Estácio de Sá and in Economics from Instituto Vianna Junior (FGV). Currently, I am in the 5th semester of Software Engineering, the 3nd semester of Systems Analysis and Development, and the 3nd semester of Big Data and Analytical Science. Additionally, I am in the 3nd semester of my postgraduate studies in Big Data and AI.
 
   I am transitioning careers and looking for opportunities in the IT field, focusing on Cloud and Artificial Intelligence. I have a particular interest in developing software and implementing application migration strategies to the cloud, aiming at cost reduction and performance improvement.
 
